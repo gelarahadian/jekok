@@ -12,8 +12,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundColor: {
+        "button-secondary": "rgba(140, 69, 255, 0.40)",
+      },
+      borderColor: {
+        "button-secondary": "rgba(255, 255, 255, 0.15)",
+        "header-bottom": "rgba(255, 255, 255, 0.15)",
+      },
+      boxShadow: {
+        "button-secondary": "0px 0px 6px 3px rgba(255, 255, 255, 0.25) inset",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
