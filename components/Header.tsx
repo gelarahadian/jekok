@@ -10,7 +10,9 @@ const Header = () => {
           <Image src={"/assets/logo.png"} alt="logo" width={38} height={38} />
         </div>
         <div className="flex space-x-3">
-          <Button>Join Waitlist</Button>
+          <div className="p-1 border rounded-xl border-button-secondary">
+            <Button>Join Waitlist</Button>
+          </div>
           <Image
             src={"/assets/list-1.svg"}
             alt="burger menu"
