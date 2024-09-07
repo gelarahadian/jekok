@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 const inter = localFont({
-  src: "./fonts/inter.ttf",
+  src: "./fonts/Inter.ttf",
   variable: "--font-inter",
   weight: "400 700",
 });
