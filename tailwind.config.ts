@@ -22,6 +22,8 @@ const config: Config = {
           "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 3.8%, #050208 86.04%)",
         "purple-shade":
           "linear-gradient(180deg, rgba(3, 1, 6, 0.00) 29.33%, #361764 89.04%)",
+        "purple-shade-horizontal":
+          " linear-gradient(107deg, #190D2E 0.54%, #020103 99.46%)",
       },
       borderColor: {
         "button-secondary": "rgba(255, 255, 255, 0.15)",

@@ -3,7 +3,7 @@ import React from "react";
 
 const Bento = () => {
   return (
-    <section>
+    <section className="px-4">
       <h2 className="text-2xl font-medium text-center tracking-wider mt-20 mb-8">
         Harness the power of AI, making search engine optimization intuitive and
         effective for all skill levels.

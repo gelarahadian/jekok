@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="px-4">
       <div className="mt-24 w-full text-center mb-16">
         <p className="inline-block text-secondary border border-secondary rounded-full px-[14px] py-2 mb-3">
           {" "}
