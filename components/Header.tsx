@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 
 const Header = () => {
   return (
-    <header className="py-3 px-4 border-header-bottom border-b">
+    <header className="py-3 px-4 border-grey border-b">
       <div className="flex justify-between">
         <div>
           <Image src={"/assets/Logo.png"} alt="logo" width={38} height={38} />

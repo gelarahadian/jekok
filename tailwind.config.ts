@@ -23,7 +23,7 @@ const config: Config = {
       },
       borderColor: {
         "button-secondary": "rgba(255, 255, 255, 0.15)",
-        "header-bottom": "rgba(255, 255, 255, 0.15)",
+        grey: "rgba(255, 255, 255, 0.15)",
         secondary: "rgba(152, 85, 255, 0.3)",
       },
       boxShadow: {
