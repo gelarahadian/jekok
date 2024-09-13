@@ -24,12 +24,15 @@ const config: Config = {
           "linear-gradient(180deg, rgba(3, 1, 6, 0.00) 29.33%, #361764 89.04%)",
         "purple-shade-horizontal":
           " linear-gradient(107deg, #190D2E 0.54%, #020103 99.46%)",
+        "avatar-gradient":
+          "radial-gradient(circle, rgba(152,85,255,1) 0%, rgba(0,0,0,0) 100%)",
       },
       borderColor: {
         "button-secondary": "rgba(255, 255, 255, 0.15)",
         grey: "rgba(255, 255, 255, 0.15)",
         secondary: "rgba(152, 85, 255, 0.3)",
       },
+
       boxShadow: {
         "button-secondary": "0px 0px 6px 3px rgba(255, 255, 255, 0.25) inset",
         "hero-img":

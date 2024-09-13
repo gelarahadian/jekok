@@ -31,3 +31,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.avatar-gradient::before {
+  border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(0,0,0,1) 100%);
+  border-image-slice: 1;
+}
+
+.avatar-gradient::after {
+  border-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(0,0,0,1) 100%);
+border-image-slice: 1;}
